@@ -1,0 +1,701 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  color: white;
+}
+body {
+  height:2000px;
+}
+header {
+  height:111px;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+}
+.nav-bar {
+  height: 50px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  margin-top: 0px;
+}
+.nav-bar p {
+  margin-right: -230px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.sign-up {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: -550px;
+  margin-left: 530px;
+  font-size: small;
+  font-weight: bold;
+}
+.sign-up:hover {
+  cursor: pointer;
+}
+#div2 {
+  padding-right: 15px;
+  border-right: 2px solid white;
+}
+
+.nav-bar2 {
+  height: 60px;
+  width: 100vw;
+  background-color: black;
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+#logo {
+  height:50px;
+  width: 100px;
+  transform: scale(0.6);
+  background-image: url("Under-Armour-Logo-PNG-Transparent.png");
+  background-size: cover;
+}
+.logo-div {
+  height:50px;
+  width:100px;
+}
+#logo:hover {
+  cursor: pointer;
+}
+.nav-bar2 p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.search {
+  height: 50px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.search input {
+  color: rgb(42, 41, 41);
+  background-color: black;
+  border-right: none;
+  border-bottom:1px solid white;
+  height: 30px;
+}
+
+.content1 {
+  height: 400px;
+  width: 1450px;
+  background-image: url("Website_Banner_Phantom4.avif");
+  background-size: cover;
+  margin-top: 118px;
+  margin-left: 40px;
+}
+.content1:hover {
+  cursor: pointer;
+}
+
+.cont1-text {
+  height: 400px;
+  width: 1450px;
+  margin-left: 40px;
+  text-align:center;
+}
+#p1 {
+  padding-top: 80px;
+  padding-bottom: 15px;
+}
+#p2 {
+  padding-top: 15px;
+}
+#p3 {
+  padding-top: 8px;
+}
+.cont1-text h1 {
+  font-size: 60px;
+  color: black;
+}
+.cont1-text p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.cont1-text button {
+  background-color: black;
+  height: 47px;
+  width: 150px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.cont1-text button:hover {
+  cursor: pointer;
+  color: #5f5f5f;
+  transition: 0.9ms;
+}
+
+#head {
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head h2 {
+  color: black;
+  font-size: 30px;
+}
+
+.content1-pics {
+  height: 350px;
+  width: 1250px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.content1-pics p {
+  color: black;
+}
+#pic1,#pic2,#pic3,#pic4 {
+  height: 280px;
+  width:280px;
+}
+#pic1,#pic2,#pic3,#pic4:hover {
+  cursor: pointer;
+}
+#pic1 {
+  background-image: url("pic1.avif");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+#pic2 {
+  background-image: url("pic2.avif");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+#pic3 {
+  background-image: url("pic3.avif");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+#pic4 {
+  background-image: url("pic4.avif");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.content2 {
+  height: 400px;
+  width: 1450px;
+  background-image: url("ua_echo_banner.jpg");
+  background-size: cover;
+  margin-top: 118px;
+  margin-left: 40px;
+}
+.content2:hover {
+  cursor: pointer;
+}
+
+.cont2-text {
+  height: 200px;
+  width: 1450px;
+  margin-left: 40px;
+  text-align:center;
+}
+#c2-p1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+#c2-p2 {
+  padding-top: 15px;
+}
+#c2-p3 {
+  padding-top: 8px;
+}
+.cont2-text h1 {
+  font-size: 60px;
+  color: black;
+}
+.cont2-text p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.cont2-text button {
+  background-color: black;
+  height: 47px;
+  width: 150px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.cont2-text button:hover {
+  cursor: pointer;
+  color: #5f5f5f;
+  transition: 0.9ms;
+}
+
+.content3 {
+  height: 400px;
+  width: 1450px;
+  background-image: url("Ua_running_banner.avif");
+  background-size: cover;
+  margin-top: 118px;
+  margin-left: 40px;
+}
+.content3:hover {
+  cursor: pointer;
+}
+
+.cont3-text {
+  height: 250px;
+  width: 1450px;
+  margin-left: 40px;
+  text-align:center;
+}
+#c3-p2 {
+  padding-top: 15px;
+}
+.cont3-text h1 {
+  font-size: 60px;
+  color: black;
+  margin-top: 15px;
+}
+.cont3-text p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.cont3-text button {
+  background-color: black;
+  height: 47px;
+  width: 200px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+  margin-left: 650px;
+}
+.cont3-text button:hover {
+  cursor: pointer;
+  color: #5f5f5f;
+  transition: 0.9ms;
+}
+
+.content4-pics {
+  height: 350px;
+  width: 1480px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.content4-pics p {
+  color: black;
+}
+.content4-pics p:hover {
+  cursor: pointer;
+}
+#pic11,#pic12,#pic13,#pic14 {
+  height: 200px;
+  width: 340px;
+}
+#pic11,#pic12,#pic13,#pic14:hover {
+  cursor: pointer;
+}
+#pic11 {
+  background-image: url("pic11.avif");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+#pic12 {
+  background-image: url("pic12.avif");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+#pic13 {
+  background-image: url("pic13.avif");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+#pic14 {
+  background-image: url("pic14.avif");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+#head2 {
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head2 h2 {
+  color: black;
+  font-size: 28px;
+}
+
+.content5 {
+  height: 300px;
+  width: 1350px;
+  background-image: url("Screenshot\ 2026-02-16\ 141541.png");
+  background-size: cover;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+#div-button {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div-button button {
+  height: 40px;
+  width: 200px;
+  background-color: black;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#div-button button:hover {
+  cursor: pointer;
+  color: #5f5f5f;
+  transition: 0.9ms;
+}
+
+footer {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: rgb(229, 226, 226);
+  margin-top: 20px;
+}
+.div1 {
+  height: 400px;
+  width: 600px;
+}
+#a-div {
+  color: black;
+  background-image: url("footerlogo.svg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 100px;
+  transform: scale(1.2);
+  margin-top: 30px;
+  margin-left: 60px;
+}
+#b-div {
+  color: black;
+  font-weight: medium;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+#c-div {
+  color: #1d1d1d;
+  font-weight: small;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.div1 input {
+  height: 30px;
+  width: 380px;
+  border: 1px solid rgb(193, 191, 191);
+  background-color: transparent;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.div1 input:hover {
+  cursor: pointer;
+}
+.d-div {
+  height: 100px;
+  width:400px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.d-div p,u {
+  font-size: 10px;
+  color: #5f5f5f;
+  text-align: center;
+}
+.e-div {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+.f-div {
+  height: 50px;
+  width: 400px;
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.f-div-pic1 {
+  height: 40px;
+  width: 70px;
+  transform: scale(0.7);
+  background-image: url("Logo-01.svg");
+  background-size: contain;
+  border-radius: 3px;
+}
+.f-div-pic1:hover {
+  cursor: pointer;
+}
+.f-div-pic2 {
+  height: 40px;
+  width: 70px;
+  transform: scale(0.7);
+  background-image: url("Logo-02..svg");
+  background-size: contain;
+  border-radius: 3px;
+}
+.f-div-pic2:hover {
+  cursor: pointer;
+}
+.f-div-pic3 {
+  height: 40px;
+  width: 70px;
+  transform: scale(0.7);
+  background-image: url("Logo-03.svg");
+  background-size: contain;
+  border-radius: 3px;
+}
+.f-div-pic3:hover {
+  cursor: pointer;
+}
+.f-div-pic4 {
+  height: 40px;
+  width: 70px;
+  transform: scale(0.7);
+  background-image: url("Logo-04.svg");
+  background-size: contain;
+  border-radius: 3px;
+}
+.f-div-pic4:hover {
+  cursor: pointer;
+}
+.f-div-pic5 {
+  height: 40px;
+  width: 70px;
+  transform: scale(0.7);
+  background-image: url("Logo-05.svg");
+  background-size: contain;
+  border-radius: 3px;
+}
+.f-div-pic5:hover {
+  cursor: pointer;
+}
+.f-div-pic6 {
+  height: 40px;
+  width: 70px;
+  transform: scale(0.7);
+  background-image: url("Logo-06.svg");
+  background-size: contain;
+  border-radius: 3px;
+}
+.f-div-pic6:hover {
+  cursor: pointer;
+}
+.g-div p {
+  font-size: 10px;
+  color: #5f5f5f;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.div2 {
+  height: 400px;
+  width: 340px;
+}
+.div-21 {
+  height: 90px;
+  width: 300px;
+  display: flex;
+
+}
+.div-21-logo {
+  height: 300px;
+  width: 40px;
+  margin-top: 30px;
+  margin-left: 15px;
+  color: black;
+}
+.div-21-text {
+  height: 150px;
+  width: 260px;
+  margin-top: 32px;
+}
+.div-21-text h6 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: black;
+}
+.div-21-text h6:hover {
+  cursor: pointer;
+}
+.div-21-text p {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #1d1d1d;
+}
+.div-21-text p:hover {
+  cursor: pointer;
+}
+.div-31 {
+  height: 150px;
+  width: 300px;
+  display: flex;
+
+}
+.div-31-logo {
+  height: 300px;
+  width: 40px;
+  margin-top: 30px;
+  margin-left: 15px;
+  color: black;
+}
+.div-31-text {
+  height: 150px;
+  width: 260px;
+  margin-top: 32px;
+}
+.div-31-text h6 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: black;
+}
+.div-31-text h6:hover {
+  cursor: pointer;
+}
+.div-31-text p {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #1d1d1d;
+}
+.div-31-text p:hover {
+  cursor: pointer;
+}
+
+.div3 {
+  height: 400px;
+  width: 330px;
+}
+.div3 p {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: #1d1d1d;
+}
+.div41 p:hover {
+  cursor: pointer;
+}
+.div3 ul {
+  font-size: 11.5px;
+  margin-top: 20px;
+  margin-left: 40px;
+  list-style: none;
+}
+.div3 li {
+  color: #1d1d1d;
+  margin-top: 17px;
+}
+.div3 li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.div4 {
+  height: 400px;
+  width: 450px;
+  display: flex;
+}
+.div41 {
+  height: 200px;
+  width: 180px;
+  margin-top: 30px;
+}
+.div41 p {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: #1d1d1d;
+}
+.div41 p:hover {
+  cursor: pointer;
+}
+.div41 ul {
+  font-size: 11.5px;
+  margin-top: 20px;
+  margin-left: 40px;
+  list-style: none;
+}
+.div41 li {
+  color: #1d1d1d;
+  margin-top: 17px;
+}
+.div41 li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.div42 {
+  height: 200px;
+  width: 180px;
+  margin-top: 30px;
+}
+.div42 p {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: #1d1d1d;
+}
+.div42 p:hover {
+  cursor: pointer;
+}
+.div42 ul {
+  font-size: 11.5px;
+  margin-top: 20px;
+  margin-left: 40px;
+  list-style: none;
+}
+.div42 li {
+  color: #1d1d1d;
+  margin-top: 17px;
+}
+.div42 li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
